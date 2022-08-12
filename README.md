@@ -2,7 +2,7 @@
 National University of Singapore, CS4243: Computer Vision and Pattern Recognition
 
 
-### Local Installation for Mac OS (M1 & M2)
+### For Mac OS (M1 & M2)
 
 ```sh
    # Do all of these in the terminal
@@ -27,7 +27,7 @@ National University of Singapore, CS4243: Computer Vision and Pattern Recognitio
    ```
 
 
-### Local Installation for Windows 
+### For Windows 
 
 ```sh
    # Install Anaconda 
@@ -60,28 +60,4 @@ National University of Singapore, CS4243: Computer Vision and Pattern Recognitio
 
    # Run the test.ipynb
    
-   ```
-
-
-### How to run noteboooks after installation
-
-#### Windows 10
-```sh
-   # Open Anaconda cli then activate the env
-   conda activate CS4243
-
-   # Run the notebooks in Chrome
-   jupyter notebook
-   ```
-
-#### Mac OS
-```sh
-   # Open terminal
-   conda activate CS4243
-
-   # Run the notebooks in Chrome
-   jupyter notebook
-
-   # Remeber to deactivate anaconda, else it will run in the background
-   conda deactivate
    ```
