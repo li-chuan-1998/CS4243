@@ -1,4 +1,4 @@
-# CS4243 (Miniconda Environment Initialisation)
+# CS4243 (Miniconda/Miniforge Environment Initialisation)
 National University of Singapore, CS4243: Computer Vision and Pattern Recognition, lab group B4.
 
 
@@ -26,6 +26,19 @@ National University of Singapore, CS4243: Computer Vision and Pattern Recognitio
    jupyter notebook
    ```
 
+#### This script will install the latest compatible packages. If you run into any difficulties in the installation, here is the last tested working versions (for your reference):
+
+```sh
+Python 3.9.13 | packaged by conda-forge | (main, May 27 2022, 17:01:00)
+[Clang 13.0.1 ]
+Tensorflow Version: 2.9.2
+Keras Version: 2.9.0
+scikit-learn version is 1.1.2.
+pandas version is 1.4.3.
+OpenCV Version: 4.6.0
+```
+
+
 ### For Mac OS (M1/M2) - with GPU support
 
 ```sh
@@ -50,6 +63,17 @@ National University of Singapore, CS4243: Computer Vision and Pattern Recognitio
    jupyter notebook
    ```
 
+#### This script will install the latest compatible packages. If you run into any difficulties in the installation, here is the last tested working versions (for your reference):
+
+```sh
+Python 3.9.13 | packaged by conda-forge | (main, May 27 2022, 17:00:52) 
+[Clang 13.0.1 ]
+Tensorflow Version: 2.9.1
+Keras Version: 2.9.0
+scikit-learn version is 1.1.2.
+pandas version is 1.4.3.
+OpenCV Version: 4.6.0
+```
 
 ### For Windows 
 
@@ -72,6 +96,16 @@ National University of Singapore, CS4243: Computer Vision and Pattern Recognitio
    # Run the notebooks in Chrome
    jupyter notebook
    ```
+
+#### This script will install the latest compatible packages. If you run into any difficulties in the installation, here is the last tested working versions (for your reference):
+```sh
+Python 3.9.13 | packaged by conda-forge | (main, May 27 2022, 16:50:36) [MSC v.1929 64 bit (AMD64)]
+Tensorflow Version: 2.9.0
+Keras Version: 2.9.0
+scikit-learn version is 1.1.2.
+pandas version is 1.4.3.
+OpenCV Version: 4.6.0
+```
 
 
 ### Verify the installation
