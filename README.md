@@ -1,4 +1,4 @@
-# CS4243 (Miniconda Environment Setup)
+# CS4243 (Miniconda Environment Initialisation)
 National University of Singapore, CS4243: Computer Vision and Pattern Recognition
 
 
