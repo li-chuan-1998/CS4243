@@ -1,0 +1,21 @@
+name: CS4243
+
+channels:
+    - conda-forge
+    - apple
+ 
+dependencies:
+    - python=3.9
+    - numpy
+    - pip>=19.0
+    - jupyter
+    - tensorflow-deps=2.9.0
+    - scikit-learn
+    - scipy
+    - pandas
+    - matplotlib
+    - opencv
+    - pip:
+        - tensorflow-macos
+        - tensorflow-metal
+        - imutils
