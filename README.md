@@ -1,12 +1,8 @@
-# CS4243
-NUS, CS4243: Computer Vision and Pattern Recognition
-
-
-<br><br>
+# CS4243 (Miniconda Environment Setup)
+National University of Singapore, CS4243: Computer Vision and Pattern Recognition
 
 
 ### Local Installation for Mac OS (M1 & M2)
-
 
 ```sh
    # Do all of these in the terminal
@@ -31,8 +27,6 @@ NUS, CS4243: Computer Vision and Pattern Recognition
    ```
 
 
-
-
 ### Local Installation for Windows 
 
 ```sh
@@ -55,6 +49,7 @@ NUS, CS4243: Computer Vision and Pattern Recognition
    jupyter notebook
    ```
 
+
 ### Verify the installation
 ```sh
    # Activate the conda env
@@ -66,7 +61,6 @@ NUS, CS4243: Computer Vision and Pattern Recognition
    # Run the test.ipynb
    
    ```
-
 
 
 ### How to run noteboooks after installation
@@ -91,6 +85,3 @@ NUS, CS4243: Computer Vision and Pattern Recognition
    # Remeber to deactivate anaconda, else it will run in the background
    conda deactivate
    ```
-
-
-<br><br><br><br><br><br># CS4243
