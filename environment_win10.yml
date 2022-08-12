@@ -12,8 +12,8 @@ dependencies:
   - pandas
   - matplotlib
   - scikit-learn
-  - tensorflow=2.9
   - opencv
 
   - pip:
+    - tensorflow==2.9
     - imutils
