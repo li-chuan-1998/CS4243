@@ -1,0 +1,23 @@
+name: cs4243
+
+channels:
+  - tensorflow
+  - conda-forge
+
+dependencies:
+  - python=3.9
+  - cudatoolkit=11.2
+  - cudnn=8.1.0
+  - numpy
+  - jupyter
+  - scipy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pip
+  - seaborn
+  - opencv
+
+  - pip:
+    - tensorflow-gpu==2.9
+

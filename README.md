@@ -2,6 +2,19 @@
 National University of Singapore, CS4243: Computer Vision and Pattern Recognition, lab group B4.
 
 
+### Verify the installation
+```sh
+   # Activate the conda env
+   conda activate CS4243
+
+   # Run the notebooks in Chrome
+   jupyter notebook
+
+   # Run the test.ipynb
+
+   ```
+
+
 ### For Mac OS (intel, M1/M2) - without GPU support
 
 ```sh
@@ -75,7 +88,8 @@ pandas version is 1.4.3.
 OpenCV Version: 4.6.0
 ```
 
-### For Windows 
+
+### For Windows - without GPU support
 
 ```sh
    # Install Anaconda 
@@ -108,14 +122,34 @@ OpenCV Version: 4.6.0
 ```
 
 
-### Verify the installation
+### For Windows - with GPU support (tested only on RTX 30 series card)
+
 ```sh
-   # Activate the conda env
+   # Install Anaconda 
+   https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
+
+   # Open an Anaconda Terminal 
+   Go to Application => Anaconda3 => Anaconda Cmd Prompt 
+
+   # Install git & clone repo: Type in terminal
+   conda install git 
+   git clone https://github.com/li-chuan-1998/CS4243.git
+   cd CS4243
+
+   # Install python libraries
+   conda env create -f environment_win10_gpu.yml
    conda activate CS4243
 
    # Run the notebooks in Chrome
    jupyter notebook
-
-   # Run the test.ipynb
-   
    ```
+
+#### This script will install the latest compatible packages. If you run into any difficulties in the installation, here is the last tested working versions (for your reference):
+```sh
+Python 3.9.13 | packaged by conda-forge | (main, May 27 2022, 16:50:36) [MSC v.1929 64 bit (AMD64)]
+Tensorflow Version: 2.9.0
+Keras Version: 2.9.0
+scikit-learn version is 1.1.2.
+pandas version is 1.4.3.
+OpenCV Version: 4.6.0
+```
