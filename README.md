@@ -153,3 +153,6 @@ scikit-learn version is 1.1.2.
 pandas version is 1.4.3.
 OpenCV Version: 4.6.0
 ```
+
+### Introduction Slides:
+https://docs.google.com/presentation/d/1viNKVNFs1rp4xr490Az3M3J4qXoYMd_KjZ8TkVb11bU/edit#slide=id.g144a03c3c64_0_53
