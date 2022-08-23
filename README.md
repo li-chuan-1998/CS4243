@@ -60,7 +60,7 @@ OpenCV Version: 4.6.0
    # Miniforge donwload
    curl https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh -O
    chmod +x Miniforge3-MacOSX-arm64.sh
-   source ./miniconda.sh
+   ./Miniforge3-MacOSX-arm64.sh
 
    # Clone GitHub repo
    git clone https://github.com/li-chuan-1998/CS4243.git
